@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+#pdfContainer {
+  position: relative;
+}
+
+canvas {
+  display: block;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+}
+
+.signature {
+  position: absolute;
+  cursor: move;
+  resize: both;
+  max-width: 200px;
+  max-height: 100px;
+  overflow: hidden;
+}
