@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PDF Signature Tool</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>PDF Signature Tool</h1>
+  <input type="file" id="pdfUpload" accept="application/pdf" />
+  <input type="file" id="signatureUpload" accept="image/png" />
+  <div id="pdfContainer"></div>
+  <button id="savePdf">Save Signed PDF</button>
+
+  <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
