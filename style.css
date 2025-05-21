@@ -1,6 +1,11 @@
 body {
   font-family: sans-serif;
   padding: 20px;
+  background: #f9f9f9;
+}
+
+h1 {
+  margin-bottom: 1rem;
 }
 
 #pdfContainer {
@@ -10,14 +15,19 @@ body {
 canvas {
   display: block;
   margin: 10px 0;
-  border: 1px solid #ddd;
+  border: 1px solid #ccc;
+  background: #fff;
 }
 
 .signature {
   position: absolute;
   cursor: move;
   resize: both;
-  max-width: 200px;
-  max-height: 100px;
-  overflow: hidden;
+  overflow: auto;
+  border: 1px dashed #888;   /* Shows resizable border */
+  min-width: 50px;
+  min-height: 25px;
+  max-width: 300px;          /* Optional limit */
+  max-height: 150px;         /* Optional limit */
+  background: transparent;
 }
