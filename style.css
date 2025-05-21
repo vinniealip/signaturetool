@@ -27,8 +27,5 @@ canvas {
   border: 1px dashed #888;
   min-width: 50px;
   min-height: 25px;
-  max-width: 300px;
-  max-height: 150px;
   background: transparent;
 }
-
