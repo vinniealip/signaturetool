@@ -24,10 +24,11 @@ canvas {
   cursor: move;
   resize: both;
   overflow: auto;
-  border: 1px dashed #888;   /* Shows resizable border */
+  border: 1px dashed #888;
   min-width: 50px;
   min-height: 25px;
-  max-width: 300px;          /* Optional limit */
-  max-height: 150px;         /* Optional limit */
+  max-width: 300px;
+  max-height: 150px;
   background: transparent;
 }
+
